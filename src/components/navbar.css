@@ -1,0 +1,29 @@
+.navbar {
+    width: 60%;
+    position: relative;
+    left: -5%;
+    margin-bottom: 20px;
+}
+
+.navbar li {
+    list-style: none;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 12%;
+    font-size: 0.9rem;
+    border-radius: 10px;
+    transition: ease-in-out .3s all;
+}
+
+.navbar li:hover {
+    background-color: white;
+    color: var(--ctn-bg-color);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.navbar li span {
+    margin-left: 10px;
+}

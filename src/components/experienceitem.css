@@ -1,0 +1,29 @@
+.experienceitem {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid var(--ctn-color);
+}
+
+.experienceitem h3 {
+    color: white;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.experienceitem .edates {
+    font-size: .8rem;
+    margin-bottom: 12px;
+}
+
+.experienceitem .edates span:first-child {
+    margin-right: 8px;
+}
+
+.experienceitem .edates span:last-child {
+    margin-left: 8px;
+}
+
+.experienceitem p {
+    font-size: .8rem;
+    line-height: 30px;
+}

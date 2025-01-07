@@ -1,0 +1,11 @@
+.photoperfil {
+    width: 60%;
+    background-color: #242424;
+    border-radius: 25px;
+    padding: 12%;
+}
+
+.photoperfil img {
+    width: 100%;
+    border-radius: 100%;
+}

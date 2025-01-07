@@ -1,0 +1,13 @@
+.mystack {
+	padding: 40px 7%;
+}
+
+.mystack h1 {
+    margin-bottom: 40px;
+}
+
+.mystack .technologies {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+}

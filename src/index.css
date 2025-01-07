@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+	--ctn-bg-color: #151515;
+	--ctn-border-color: #2d2c38;
+	--ctn-color: #707070;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	background-color: #050505;
+	font-family: 'Montserrat', serif;
+}
+
+h1 {
+	font-weight: 600;
+	color: white;
+}
+
+h2 {
+	font-size: 1.2rem;
+	font-weight: 400;
+	margin-bottom: 2px;
+}
+
+p {
+	font-weight: 400;
+	color: var(--ctn-color);
+}
+
+p span {
+	color: white;
+	font-weight: 300;
+}
+
+button {
+	width: 90px;
+	height: 40px;
+	border-radius: 12px;
+	background-color: #64bd73;
+	border: none;
+	color: white;
+	transition: ease-in-out .3s all;
+}
+
+button svg {
+	margin-right: 5px;
+}
+
+button:hover {
+	background-color: #4e965a;
+	cursor: pointer;
+}
+
+.ctn {
+	border: 1px solid var(--ctn-border-color);
+	border-radius: 20px;
+	background-color: var(--ctn-bg-color);
+	color: var(--ctn-color);
+}
+
+.h1colorfull {
+	background: linear-gradient(to right, #bcb6f1, #e1bebb, #e1bebb, #e1bebb, #e1bebb);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}

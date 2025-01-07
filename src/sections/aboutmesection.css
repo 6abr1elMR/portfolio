@@ -1,0 +1,23 @@
+.aboutme {
+    display: flex;
+    padding: 80px 0;
+}
+
+.aboutme div:first-child {
+    width: 50%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.aboutme div:first-child p {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+.aboutme div:last-child {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

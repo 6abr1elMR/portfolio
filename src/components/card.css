@@ -1,0 +1,44 @@
+.card {
+    background-color: #18171b;
+    border: 2px solid var(--ctn-border-color);
+    border-radius: 20px;
+    padding: 25px;
+    color: white;
+    transition: ease-out .2s all;
+}
+
+.card:hover {
+    transform: scale(105%, 105%);
+}
+
+.card .cheader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card .cheader .csymbol {
+    text-align: center;
+    background-color: #242424;
+    padding: 8px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.card .cheader .csymbol span {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.card .cheader .csymbol span:first-child {
+    margin-right: 10px;
+}
+
+.card .cheader h3 {
+    font-weight: 400;
+}
+
+.card .ccontent p {
+    font-size: 0.8rem;
+    line-height: 30px;
+}

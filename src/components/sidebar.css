@@ -1,0 +1,22 @@
+.sidebar {
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+.sidebar h2:first-of-type {
+    color: #efeff0;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.sidebar h2:last-of-type {
+    margin-bottom: 60px;
+}
+
+.sidebar .footer {
+    height: 80px;
+}
