@@ -26,4 +26,12 @@
 .experienceitem p {
     font-size: .8rem;
     line-height: 30px;
+    margin-bottom: 12px;
+}
+
+.experienceitem .technologies {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 2px;
 }

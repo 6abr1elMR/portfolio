@@ -1,3 +1,7 @@
+import { JsIcon } from '../components/icons/js';
+import { NodejsIcon } from '../components/icons/nodejs';
+import { PythonIcon } from '../components/icons/python';
+
 const DATA_STACK = [
 	{
 		title: 'C#',
@@ -41,15 +45,15 @@ const DATA_EXPERIENCES = [
 		technologies: [
 			{
 				techname: 'Javascript',
-				icon: '../assets/icons/js.svg',
+				icon: JsIcon,
 			},
 			{
-				techname: 'Javascript',
-				icon: '../assets/icons/nodejs.svg',
+				techname: 'Node.js',
+				icon: NodejsIcon,
 			},
 			{
-				techname: 'Javascript',
-				icon: '../assets/icons/python.svg',
+				techname: 'Python',
+				icon: PythonIcon,
 			},
 		],
 	},
@@ -62,36 +66,15 @@ const DATA_EXPERIENCES = [
 		technologies: [
 			{
 				techname: 'Javascript',
-				icon: '../assets/icons/js.svg',
+				icon: JsIcon,
 			},
 			{
-				techname: 'Javascript',
-				icon: '../assets/icons/nodejs.svg',
+				techname: 'Node.js',
+				icon: NodejsIcon,
 			},
 			{
-				techname: 'Javascript',
-				icon: '../assets/icons/python.svg',
-			},
-		],
-	},
-	{
-		title: 'T-Mobile Full stack developer',
-		startDate: 'JAN 2023',
-		endDate: 'Present',
-		content:
-			'Develop and maintain web applications using modern technologies such as Javascript (React, Vue.js) for frontend and Node.js, Python(Django, Flask) for backend',
-		technologies: [
-			{
-				techname: 'Javascript',
-				icon: '../assets/icons/js.svg',
-			},
-			{
-				techname: 'Javascript',
-				icon: '../assets/icons/nodejs.svg',
-			},
-			{
-				techname: 'Javascript',
-				icon: '../assets/icons/python.svg',
+				techname: 'Python',
+				icon: PythonIcon,
 			},
 		],
 	},
@@ -104,15 +87,36 @@ const DATA_EXPERIENCES = [
 		technologies: [
 			{
 				techname: 'Javascript',
-				icon: '../assets/icons/js.svg',
+				icon: JsIcon,
 			},
 			{
-				techname: 'Javascript',
-				icon: '../assets/icons/nodejs.svg',
+				techname: 'Node.js',
+				icon: NodejsIcon,
 			},
 			{
+				techname: 'Python',
+				icon: PythonIcon,
+			},
+		],
+	},
+	{
+		title: 'T-Mobile Full stack developer',
+		startDate: 'JAN 2023',
+		endDate: 'Present',
+		content:
+			'Develop and maintain web applications using modern technologies such as Javascript (React, Vue.js) for frontend and Node.js, Python(Django, Flask) for backend',
+		technologies: [
+			{
 				techname: 'Javascript',
-				icon: '../assets/icons/python.svg',
+				icon: JsIcon,
+			},
+			{
+				techname: 'Node.js',
+				icon: NodejsIcon,
+			},
+			{
+				techname: 'Python',
+				icon: PythonIcon,
 			},
 		],
 	},

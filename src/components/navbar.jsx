@@ -1,9 +1,4 @@
-import {
-	FaRegAddressCard,
-	FaRegFileAlt,
-	FaRegFolder,
-	FaRegComments,
-} from 'react-icons/fa';
+import { FaRegAddressCard, FaRegFolder, FaRegComments } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
 import './navbar.css';
 
@@ -19,10 +14,6 @@ const Navbar = () => {
 			<li onClick={() => goToPage('')}>
 				<FaRegAddressCard />
 				<span>About me</span>
-			</li>
-			<li onClick={() => goToPage('resume')}>
-				<FaRegFileAlt />
-				<span>Resume</span>
 			</li>
 			<li onClick={() => goToPage('projects')}>
 				<FaRegFolder />

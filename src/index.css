@@ -38,13 +38,17 @@ p span {
 }
 
 button {
-	width: 90px;
 	height: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px;
 	border-radius: 12px;
 	background-color: #64bd73;
 	border: none;
 	color: white;
 	transition: ease-in-out .3s all;
+	font-size: 0.95rem;
 }
 
 button svg {

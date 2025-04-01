@@ -1,4 +1,4 @@
-import { FaCloudDownloadAlt } from "react-icons/fa";
+import { FaDownload } from "react-icons/fa";
 import Photoaboutme from '../components/photoaboutme';
 import phperfil from '../assets/phperfil.jpg';
 import Button from '../components/button';
@@ -18,7 +18,7 @@ const Aboutmesection = () => {
 					My job is to build <span>your website</span> so that it is functional
 					and <span>user-friendly</span> but at the same time attractive.
 				</p>
-				<Button icon={<FaCloudDownloadAlt />} />
+				<Button icon={<FaDownload />} />
 			</div>
 			<div>
 				<Photoaboutme imgperfil={phperfil} />
