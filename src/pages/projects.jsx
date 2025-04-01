@@ -1,7 +1,12 @@
 import Content from '../components/content';
+import MenuProjectSection from '../sections/menuprojectsection';
 
 const Projects = () => {
-    return <Content>PROJECTS</Content>;
-}
+	return (
+		<Content>
+			<MenuProjectSection />
+		</Content>
+	);
+};
 
 export default Projects;

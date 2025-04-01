@@ -1,0 +1,35 @@
+.menuprojectsection {
+	display: flex;
+	justify-content: center;
+}
+
+.menuprojectsection .maincontent {
+	width: 95%;
+	height: 100px;
+	display: flex;
+    padding-inline: 50px;
+	justify-content: space-between;
+	margin-top: 5%;
+	align-items: center;
+	background: #18171b;
+	border: 1px solid var(--ctn-border-color);
+	border-radius: 20px;
+}
+
+.menuprojectsection .maincontent .contentoptions ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	gap: 30px;
+}
+
+.menuprojectsection .maincontent .contentoptions ul li {
+    padding: 3px;
+    transition: ease-in-out .3s all;
+}
+
+.menuprojectsection .maincontent .contentoptions ul li:hover {
+	cursor: pointer;
+	color: aqua;
+}
