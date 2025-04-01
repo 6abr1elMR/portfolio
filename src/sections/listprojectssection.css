@@ -1,0 +1,30 @@
+.separator {
+    width: 2px;
+    height: 80px;
+    background: var(--ctn-border-color);
+    margin-inline: 20px;
+}
+
+.listprojectssection {
+    display: flex;
+    justify-content: center;
+}
+
+.listprojectssection .maincontent {
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    background: #18171b;
+    border: 1px solid var(--ctn-border-color);
+    border-radius: 20px;
+}
+
+.listprojectssection .maincontent .itemStatistics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.listprojectssection .maincontent .itemStatistics p {
+    margin-bottom: 10px;
+}
