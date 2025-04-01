@@ -1,7 +1,13 @@
 import { PropTypes } from 'prop-types';
 
 const Button = ({ icon }) => {
-	return <button>{icon}Download CV</button>;
+	const handleDownload = () => {
+		const urlCv =
+			'https://portfolio-docs-pbl.s3.us-east-1.amazonaws.com/VE-GabrielMontes-ES.pdf';
+		return window.open(urlCv, '_blank');
+	};
+
+	return <button onClick={handleDownload}>{icon}Download CV</button>;
 };
 
 Button.propTypes = {
