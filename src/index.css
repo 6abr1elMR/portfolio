@@ -4,6 +4,8 @@
 	--ctn-bg-color: #151515;
 	--ctn-border-color: #2d2c38;
 	--ctn-color: #707070;
+	--color-green: #00ff2ad3;
+	--color-yellow: #ffc400;
 }
 
 * {
@@ -69,6 +71,7 @@ button:hover {
 
 .h1colorfull {
 	background: linear-gradient(to right, #bcb6f1, #e1bebb, #e1bebb, #e1bebb, #e1bebb);
+	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }

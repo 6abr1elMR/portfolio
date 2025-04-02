@@ -1,6 +1,7 @@
 import { JsIcon } from '../components/icons/js';
 import { NodejsIcon } from '../components/icons/nodejs';
 import { PythonIcon } from '../components/icons/python';
+import RocketIcon from '../assets/rocket.png';
 
 const DATA_STACK = [
 	{
@@ -122,4 +123,42 @@ const DATA_EXPERIENCES = [
 	},
 ];
 
-export { DATA_STACK, DATA_EXPERIENCES };
+const DATA_PROJECTS = [
+	{
+		title: 'Frontend Project UI',
+		progress: 100,
+		icon: RocketIcon,
+		status: 'Completed',
+		tag: 'frontend',
+	},
+	{
+		title: 'Backend Project API',
+		progress: 100,
+		icon: RocketIcon,
+		status: 'Completed',
+		tag: 'backend',
+	},
+	{
+		title: 'Locky App',
+		progress: 80,
+		icon: RocketIcon,
+		status: 'In Progress',
+		tag: 'mobile',
+	},
+	{
+		title: 'Locky Application Web',
+		progress: 50,
+		icon: RocketIcon,
+		status: 'In Progress',
+		tag: 'application',
+	},
+	{
+		title: 'Frontend Locky Web',
+		progress: 100,
+		icon: RocketIcon,
+		status: 'Completed',
+		tag: 'frontend',
+	},
+];
+
+export { DATA_STACK, DATA_EXPERIENCES, DATA_PROJECTS };

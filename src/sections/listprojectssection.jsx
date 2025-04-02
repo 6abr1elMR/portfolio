@@ -1,6 +1,9 @@
+import CardProject from '../components/cardproject';
+import PropTypes from 'prop-types';
+
 import './listprojectssection.css';
 
-const ListProjectsSection = () => {
+const ListProjectsSection = ({ projects }) => {
 	return (
 		<div className='listprojectssection'>
 			<div className='maincontent'>
@@ -19,8 +22,25 @@ const ListProjectsSection = () => {
 					<h1>3</h1>
 				</div>
 			</div>
+			<div className='projects'>
+				{projects.map((p, index) => {
+					return (
+						<CardProject
+							key={`${p.title}-${index}`}
+							title={p.title}
+							progress={p.progress}
+							icon={p.icon}
+							status={p.status}
+						/>
+					);
+				})}
+			</div>
 		</div>
 	);
+};
+
+ListProjectsSection.propTypes = {
+	projects: PropTypes.array.isRequired,
 };
 
 export default ListProjectsSection;

@@ -7,7 +7,9 @@
 
 .listprojectssection {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 40px;
 }
 
 .listprojectssection .maincontent {
@@ -17,6 +19,7 @@
     background: #18171b;
     border: 1px solid var(--ctn-border-color);
     border-radius: 20px;
+    margin-bottom: 30px;
 }
 
 .listprojectssection .maincontent .itemStatistics {
@@ -27,4 +30,11 @@
 
 .listprojectssection .maincontent .itemStatistics p {
     margin-bottom: 10px;
+}
+
+.listprojectssection .projects {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
