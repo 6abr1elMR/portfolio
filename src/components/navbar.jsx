@@ -13,15 +13,15 @@ const Navbar = () => {
 		<div className='navbar'>
 			<li onClick={() => goToPage('')}>
 				<FaRegAddressCard />
-				<span>About me</span>
+				<span>Acerca de mí</span>
 			</li>
 			<li onClick={() => goToPage('projects')}>
 				<FaRegFolder />
-				<span>Projects</span>
+				<span>Proyectos</span>
 			</li>
 			<li onClick={() => goToPage('contact')}>
 				<FaRegComments />
-				<span>Contact</span>
+				<span>Contacto</span>
 			</li>
 		</div>
 	);

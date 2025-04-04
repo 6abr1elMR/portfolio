@@ -5,7 +5,7 @@ import './experiencesection.css';
 const ExperienceSection = () => {
 	return (
 		<div className='experience'>
-			<h1>Experience</h1>
+			<h1>Experiencia</h1>
 			<div className='experiences'>
 				{experiences.map((e) => {
 					return (

@@ -4,7 +4,7 @@
 }
 
 .aboutme div:first-child {
-    width: 50%;
+    width: 80%;
     padding-left: 7%;
     padding-right: 7%;
 }
@@ -16,7 +16,7 @@
 }
 
 .aboutme div:last-child {
-    width: 50%;
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;

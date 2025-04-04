@@ -7,7 +7,7 @@ const Button = ({ icon }) => {
 		return window.open(urlCv, '_blank');
 	};
 
-	return <button onClick={handleDownload}>{icon}Download CV</button>;
+	return <button onClick={handleDownload}>{icon}Descargar CV</button>;
 };
 
 Button.propTypes = {

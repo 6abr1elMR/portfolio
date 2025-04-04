@@ -6,15 +6,15 @@ const MenuProjectSection = ({ handleFilterProjects }) => {
 	return (
 		<div className='menuprojectsection'>
 			<div className='maincontent'>
-				<h1 className='h1colorfull'>Project&apos;s</h1>
+				<h1 className='h1colorfull'>Proyectos</h1>
 				<div className='contentoptions'>
 					<ul>
-						<li onClick={() => handleFilterProjects('')}>All</li>
+						<li onClick={() => handleFilterProjects('')}>Todos</li>
 						<li onClick={() => handleFilterProjects('frontend')}>Frontend</li>
 						<li onClick={() => handleFilterProjects('backend')}>Backend</li>
 						<li onClick={() => handleFilterProjects('mobile')}>Mobile</li>
 						<li onClick={() => handleFilterProjects('application')}>
-							Applications
+							Aplicaciones
 						</li>
 					</ul>
 				</div>

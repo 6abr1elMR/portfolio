@@ -1,73 +1,121 @@
-import { JsIcon } from '../components/icons/js';
 import { NodejsIcon } from '../components/icons/nodejs';
 import { PythonIcon } from '../components/icons/python';
+import { ReactIcon } from '../components/icons/react';
+import { SpringbootIcon } from '../components/icons/springboot';
+import { NetIcon } from '../components/icons/net';
+import { AngularIcon } from '../components/icons/angular';
+import { FlutterIcon } from '../components/icons/flutter';
+import { AwsIcon } from '../components/icons/aws';
+import { GolangIcon } from '../components/icons/golang';
+import { GcpIcon } from '../components/icons/gcp';
+import { AzureIcon } from '../components/icons/azure';
 import RocketIcon from '../assets/rocket.png';
 
 const DATA_STACK = [
 	{
-		title: 'C#',
+		title: 'JavaScript',
 		content:
-			'A general-purpose high-level programming language supporting multiple paradigms',
+			'Lenguaje de programación dinámico y versátil, utilizado principalmente para desarrollo web frontend y backend',
 	},
 	{
-		title: 'C++',
+		title: 'TypeScript',
 		content:
-			'A general-purpose high-level programming language supporting multiple paradigms',
+			'Superset de JavaScript que agrega tipado estático y mejoras para el desarrollo escalable.',
+	},
+	{
+		title: 'PHP',
+		content:
+			'Lenguaje de programación orientado a la web, ampliamente usado para desarrollo backend y gestión de servidores.',
 	},
 	{
 		title: 'Python',
 		content:
-			'A general-purpose high-level programming language supporting multiple paradigms',
+			'Lenguaje multipropósito, fácil de aprender y usado en desarrollo web, ciencia de datos, IA y automatización.',
 	},
 	{
-		title: 'Git',
+		title: 'SQL',
 		content:
-			'A general-purpose high-level programming language supporting multiple paradigms',
+			'Lenguaje estándar para la gestión y manipulación de bases de datos relacionales',
+	},
+	{
+		title: 'PSQL',
+		content:
+			'Dialecto de SQL optimizado para PostgreSQL, un potente sistema de bases de datos relacionales.',
+	},
+	{
+		title: 'C#',
+		content:
+			'Lenguaje de Microsoft orientado a objetos, usado en desarrollo de aplicaciones de escritorio, juegos y backend con .NET',
 	},
 	{
 		title: 'Java',
 		content:
-			'A general-purpose high-level programming language supporting multiple paradigms',
+			'Lenguaje orientado a objetos, popular en desarrollo empresarial, aplicaciones móviles y sistemas de gran escala.',
 	},
 	{
-		title: 'Node.js',
+		title: 'Dart',
 		content:
-			'A general-purpose high-level programming language supporting multiple paradigms',
+			'Lenguaje optimizado para el desarrollo frontend y de aplicaciones móviles con Flutter.',
+	},
+	{
+		title: 'Golang',
+		content:
+			'Lenguaje eficiente y concurrente, ideal para backend, servicios en la nube y microservicios.',
 	},
 ];
 
 const DATA_EXPERIENCES = [
 	{
-		title: 'T-Mobile Full stack developer',
-		startDate: 'JAN 2023',
-		endDate: 'Present',
+		title: 'CTO - Arquitecto de Infraestructura y Soluciones Cloud',
+		startDate: '2023',
+		endDate: '2024',
 		content:
-			'Develop and maintain web applications using modern technologies such as Javascript (React, Vue.js) for frontend and Node.js, Python(Django, Flask) for backend',
+			'Como CTO, desarrollé y mantuve plataformas y microservicios, automatizando procesos y gestionando despliegues con diversas tecnologías. También lideré la planificación y gestión del equipo con Scrum.',
 		technologies: [
 			{
-				techname: 'Javascript',
-				icon: JsIcon,
+				techname: 'React',
+				icon: ReactIcon,
 			},
 			{
 				techname: 'Node.js',
 				icon: NodejsIcon,
 			},
 			{
+				techname: 'SpringBoot',
+				icon: SpringbootIcon,
+			},
+			{
 				techname: 'Python',
 				icon: PythonIcon,
+			},
+			{
+				techname: '.NET',
+				icon: NetIcon,
+			},
+			{
+				techname: 'Angular',
+				icon: AngularIcon,
+			},
+			{
+				techname: 'Flutter',
+				icon: FlutterIcon,
+			},
+			{
+				techname: 'AWS',
+				icon: AwsIcon,
 			},
 		],
 	},
 	{
-		title: 'T-Mobile Full stack developer',
-		startDate: 'JAN 2022',
-		endDate: 'Present',
+		title: 'Líder Técnico - Arquitecto de Infraestructura y Soluciones Cloud',
+		startDate: '2023',
+		endDate: '2024',
 		content:
-			'Develop and maintain web applications using modern technologies such as Javascript (React, Vue.js) for frontend and Node.js, Python(Django, Flask) for backend',
+			'Como Líder Técnico Full Stack, dirigí el desarrollo y mantenimiento de plataformas SaaS con microservicios y microfrontends, gestionando tecnologías en frontend, backend y bases de datos.',
 		technologies: [
 			{
-				techname: 'Javascript',
-				icon: JsIcon,
+				techname: 'React',
+				icon: ReactIcon,
 			},
 			{
 				techname: 'Node.js',
@@ -76,48 +124,116 @@ const DATA_EXPERIENCES = [
 			{
 				techname: 'Python',
 				icon: PythonIcon,
+			},
+			{
+				techname: '.NET',
+				icon: NetIcon,
+			},
+			{
+				techname: 'Angular',
+				icon: AngularIcon,
+			},
+			{
+				techname: 'Golang',
+				icon: GolangIcon,
+			},
+			{
+				techname: 'AWS',
+				icon: AwsIcon,
+			},
+			{
+				techname: 'Azure',
+				icon: AzureIcon,
 			},
 		],
 	},
 	{
-		title: 'T-Mobile Full stack developer',
-		startDate: 'JAN 2023',
-		endDate: 'Present',
+		title: 'Líder Técnico - Arquitecto de Infraestructura y Soluciones Cloud',
+		startDate: '2022',
+		endDate: '2023',
 		content:
-			'Develop and maintain web applications using modern technologies such as Javascript (React, Vue.js) for frontend and Node.js, Python(Django, Flask) for backend',
+			'Como Líder Técnico Full Stack y DevOps, lideré el desarrollo y mantenimiento de plataformas con microservicios, automatizando procesos y despliegues en la nube. Gestioné equipos con Scrum y trabajé en frontend, backend y cloud con diversas tecnologías.',
 		technologies: [
 			{
-				techname: 'Javascript',
-				icon: JsIcon,
+				techname: 'React',
+				icon: ReactIcon,
 			},
 			{
 				techname: 'Node.js',
 				icon: NodejsIcon,
 			},
 			{
+				techname: 'SpringBoot',
+				icon: SpringbootIcon,
+			},
+			{
 				techname: 'Python',
 				icon: PythonIcon,
+			},
+			{
+				techname: '.NET',
+				icon: NetIcon,
+			},
+			{
+				techname: 'Angular',
+				icon: AngularIcon,
+			},
+			{
+				techname: 'Flutter',
+				icon: FlutterIcon,
+			},
+			{
+				techname: 'AWS',
+				icon: AwsIcon,
+			},
+			{
+				techname: 'GCP',
+				icon: GcpIcon,
 			},
 		],
 	},
 	{
-		title: 'T-Mobile Full stack developer',
-		startDate: 'JAN 2023',
-		endDate: 'Present',
+		title: 'Desarrollador FullStack y Arquitecto Cloud',
+		startDate: '2022',
+		endDate: '2022',
 		content:
-			'Develop and maintain web applications using modern technologies such as Javascript (React, Vue.js) for frontend and Node.js, Python(Django, Flask) for backend',
+			'Como Desarrollador Full Stack, trabajé en el desarrollo y mantenimiento de una plataforma de seguros con microservicios, utilizando diversas tecnologías en frontend, backend y bases de datos. También gestioné despliegues en DigitalOcean.',
 		technologies: [
 			{
-				techname: 'Javascript',
-				icon: JsIcon,
+				techname: 'React',
+				icon: ReactIcon,
 			},
 			{
 				techname: 'Node.js',
 				icon: NodejsIcon,
 			},
 			{
+				techname: 'SpringBoot',
+				icon: SpringbootIcon,
+			},
+			{
 				techname: 'Python',
 				icon: PythonIcon,
+			},
+			{
+				techname: '.NET',
+				icon: NetIcon,
+			},
+			{
+				techname: 'Angular',
+				icon: AngularIcon,
+			},
+			{
+				techname: 'Flutter',
+				icon: FlutterIcon,
+			},
+			{
+				techname: 'AWS',
+				icon: AwsIcon,
+			},
+			{
+				techname: 'Azure',
+				icon: AzureIcon,
 			},
 		],
 	},
@@ -125,14 +241,14 @@ const DATA_EXPERIENCES = [
 
 const DATA_PROJECTS = [
 	{
-		title: 'Frontend Project UI',
+		title: 'Locky Web',
 		progress: 100,
 		icon: RocketIcon,
 		status: 'Completed',
 		tag: 'frontend',
 	},
 	{
-		title: 'Backend Project API',
+		title: 'My Drive API',
 		progress: 100,
 		icon: RocketIcon,
 		status: 'Completed',
@@ -140,20 +256,20 @@ const DATA_PROJECTS = [
 	},
 	{
 		title: 'Locky App',
-		progress: 80,
+		progress: 100,
 		icon: RocketIcon,
-		status: 'In Progress',
+		status: 'Completed',
 		tag: 'mobile',
 	},
 	{
-		title: 'Locky Application Web',
+		title: 'My Drive Webapp',
 		progress: 50,
 		icon: RocketIcon,
 		status: 'In Progress',
 		tag: 'application',
 	},
 	{
-		title: 'Frontend Locky Web',
+		title: 'Animations JavaScript',
 		progress: 100,
 		icon: RocketIcon,
 		status: 'Completed',

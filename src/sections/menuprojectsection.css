@@ -10,7 +10,7 @@
 	display: flex;
     padding-inline: 50px;
 	justify-content: space-between;
-	margin-top: 5%;
+	margin-top: 3%;
 	align-items: center;
 	background: #18171b;
 	border: 1px solid var(--ctn-border-color);
