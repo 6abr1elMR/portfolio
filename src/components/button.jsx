@@ -2,8 +2,7 @@ import { PropTypes } from 'prop-types';
 
 const Button = ({ icon }) => {
 	const handleDownload = () => {
-		const urlCv =
-			'https://portfolio-docs-pbl.s3.us-east-1.amazonaws.com/VE-GabrielMontes-ES.pdf';
+		const urlCv = '/portfolio/cv.pdf';
 		return window.open(urlCv, '_blank');
 	};
 
