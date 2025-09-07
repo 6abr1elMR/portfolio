@@ -263,9 +263,9 @@ const DATA_PROJECTS = [
 	},
 	{
 		title: 'My Drive Webapp',
-		progress: 50,
+		progress: 100,
 		icon: RocketIcon,
-		status: 'In Progress',
+		status: 'Completed',
 		tag: 'application',
 	},
 	{
@@ -274,6 +274,34 @@ const DATA_PROJECTS = [
 		icon: RocketIcon,
 		status: 'Completed',
 		tag: 'frontend',
+	},
+	{
+		title: 'Design System Locky App',
+		progress: 100,
+		icon: RocketIcon,
+		status: 'Completed',
+		tag: 'mobile',
+	},
+	{
+		title: 'Design System Locky Web',
+		progress: 100,
+		icon: RocketIcon,
+		status: 'Completed',
+		tag: 'frontend',
+	},
+	{
+		title: 'CRM Automation Web',
+		progress: 20,
+		icon: RocketIcon,
+		status: 'In Progress',
+		tag: 'frontend',
+	},
+	{
+		title: 'CRM Automation Server Integration',
+		progress: 40,
+		icon: RocketIcon,
+		status: 'In Progress',
+		tag: 'backend',
 	},
 ];
 
