@@ -1,5 +1,6 @@
-import './contactsection.css';
 import { useState } from 'react';
+import { sendEmail } from '../utils/email';
+import './contactsection.css';
 
 const ContactSection = () => {
 	const [formData, setFormData] = useState({
@@ -16,9 +17,10 @@ const ContactSection = () => {
 		}));
 	};
 
-	const handleSubmit = (e) => {
+	const handleSubmit = async (e) => {
 		e.preventDefault();
-		console.log('Form data:', formData);
+		const { name, email, message } = formData;
+		await sendEmail(name, email, message);
 		setFormData({
 			name: '',
 			email: '',
