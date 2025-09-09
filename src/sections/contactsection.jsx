@@ -25,6 +25,7 @@ const ContactSection = () => {
 			email: '',
 			message: '',
 		});
+		alert('Mensaje enviado, gracias por contactarme!');
 		await sendEmail(name, email, message);
 	};
 
