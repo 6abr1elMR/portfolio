@@ -20,12 +20,12 @@ const ContactSection = () => {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		const { name, email, message } = formData;
-		await sendEmail(name, email, message);
 		setFormData({
 			name: '',
 			email: '',
 			message: '',
 		});
+		await sendEmail(name, email, message);
 	};
 
 	return (
